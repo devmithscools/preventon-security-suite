@@ -1,0 +1,18 @@
+# Text file normalization
+# Normalize line endings
+
+src/*.ts linguist-detectable
+
+*.ts linguist-detectable
+
+*.yml linguist-detectable=false
+*.jpeg binary
+* text=auto eol=lf
+
+*.sh text eol=lf
+vendor/* linguist-vendored
+
+examples/site/* linguist-vendored
+* text=auto
+*.woff binary
+examples/site/** linguist-vendored
